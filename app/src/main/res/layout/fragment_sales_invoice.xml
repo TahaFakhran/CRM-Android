@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".SalesInvoice">
+
+    <TextView
+            android:text="Add Invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"/>
+
+    <TextView
+            android:text="CustomerCode :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+    />
+
+    <TextView
+            android:text="WhCode :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="160dp"
+    />
+
+    <TextView
+            android:text="OrdNumber :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="210dp"
+    />
+
+    <TextView
+            android:text="ItemCode :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="260dp"
+    />
+    <TextView
+            android:text="ItemQuantity :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="320dp"
+    />
+    <TextView
+            android:text="ItemPrice :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="370dp"
+    />
+
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInvoiceCustomerCode"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="90dp"
+    />
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInvoiceWhCode"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="150dp"
+    />
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInvoiceOrdNumber"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+    />
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInvoiceItemCode"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="250dp"
+    />
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInvoiceItemQuantity"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="300dp"
+    />
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInvoiceItemPrice"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="350dp"
+    />
+    <Button
+            android:text="Add Invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddInvoice"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="400dp"
+    />
+
+</FrameLayout>

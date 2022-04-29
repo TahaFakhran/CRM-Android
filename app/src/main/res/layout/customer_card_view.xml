@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvCustomerParent"
+        android:padding="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="20dp"
+>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CustomerCode"
+                android:id="@+id/txtCustomerCode"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CustomerName"
+                android:id="@+id/txtCustomerName"
+                android:textStyle="italic"
+                android:layout_below="@id/txtCustomerCode"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CustomerAddress"
+                android:id="@+id/txtCustomerAddress"
+                android:textStyle="italic"
+                android:layout_below="@id/txtCustomerName"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+        />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

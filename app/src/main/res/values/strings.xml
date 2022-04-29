@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CRM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ip">192.168.1.65</string>
+    <string name="port">"1433"</string>
+    <string name="Classes">net.sourceforge.jtds.jdbc.Driver</string>
+    <string name="database">crm</string>
+    <string name="username">Taha</string>
+    <string name="password">123456</string>
+</resources>

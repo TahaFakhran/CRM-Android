@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvOrderParent"
+        android:padding="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="20dp"
+>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CustomerCode"
+                android:id="@+id/txtOrderCustomerCode"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ItemCode"
+                android:id="@+id/txtOrderItemCode"
+                android:textStyle="italic"
+                android:layout_below="@id/txtOrderCustomerCode"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OrdNumber"
+                android:id="@+id/txtOrderOrdNumber"
+                android:textStyle="italic"
+                android:layout_below="@id/txtOrderItemCode"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QtyOrdered"
+                android:id="@+id/txtQtyOrdered"
+                android:textStyle="italic"
+                android:layout_below="@id/txtOrderOrdNumber"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QtyDelivered"
+                android:id="@+id/txtQtyDelivered"
+                android:textStyle="italic"
+                android:layout_below="@id/txtQtyOrdered"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+        />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

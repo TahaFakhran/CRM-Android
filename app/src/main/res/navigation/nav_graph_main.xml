@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph_warehouse"
+            app:startDestination="@id/defaultPage">
+
+    <fragment android:id="@+id/defaultPage" android:name="com.example.crmempty.Default" android:label="fragment_default"
+              tools:layout="@layout/fragment_default"/>
+    <fragment android:id="@+id/fWarehouse" android:name="com.example.crmempty.Warehouse" android:label="fragment_1"
+              tools:layout="@layout/fragment_warehouse"/>
+    <fragment android:id="@+id/fItemCat" android:name="com.example.crmempty.ItemCat" android:label="fragment_2"
+              tools:layout="@layout/fragment_itemcat"/>
+    <fragment android:id="@+id/fItem" android:name="com.example.crmempty.Item" android:label="fragment_3"
+              tools:layout="@layout/fragment_item"/>
+    <fragment android:id="@+id/fCustomer" android:name="com.example.crmempty.Customer" android:label="fragment_customer"
+              tools:layout="@layout/fragment_customer"/>
+    <fragment android:id="@+id/fSalesOrder" android:name="com.example.crmempty.SalesOrder"
+              android:label="fragment_sales_order" tools:layout="@layout/fragment_sales_order"/>
+    <fragment android:id="@+id/fSalesInvoice" android:name="com.example.crmempty.SalesInvoice"
+              android:label="fragment_sales_invoice" tools:layout="@layout/fragment_sales_invoice"/>
+
+
+</navigation>
